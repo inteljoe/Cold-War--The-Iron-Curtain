@@ -1217,3 +1217,49 @@ SOV_MNT_01 =
 		302 = { "%dya Gornostrelkovaya Diviziya" }
 	}
 }
+SOV_GAR_01 = 
+{
+	name = "Garrison Division"
+
+	for_countries = { SOV }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SOV_GAR_01 }
+
+	fallback_name = "%dya Okkupatsionnykh Voysk"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya 'Vitebskaya' Strelk. Div." }
+		
+	}
+}
+SOV_POL_01 = 
+{
+	name = "Police Division"
+
+	for_countries = { SOV }
+
+	can_use = { always = yes }
+
+	division_types = { "calvary" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SOV_POL_01 }
+
+	fallback_name = "%dya Politsiya Voysk"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya 'Vitebskaya' Strelk. Div." }
+		
+	}
+}
