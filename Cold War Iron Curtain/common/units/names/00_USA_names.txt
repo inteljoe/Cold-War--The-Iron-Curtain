@@ -5,7 +5,9 @@
 		generic = { "SS" }
 		generic_pattern = "SHIP_NAME_GENERIC"
 		unique = {
-			"Tang" "Trigger" "Wahoo" "Trout" "Gudgeon" "Harder" "Darter" "Barbel" "Blueback" "Bonefish" 
+			# From wiki, all SS names (minus some errant R, S, O types that were specific to a class)
+			“Albacore” “Amberjack” “Amberjack” “Angler” “Apogon” “Archerfish” “Argonaut” “Aspro” “Atule” “Balao” “Bang” “Barb” “Barbel” “Barbero” “Barracuda” “Bashaw” “Bass” “Batfish” “Baya” “Becuna” “Bergall” “Besugo” “Billfish” “Blackfin” “Blackfish” “Blanquillo” “Blenny” “Blower” “Blueback” “Bluefish” “Bluegill” “Boarfish” “Bonefish” “Bonita” “Bowfin” “Bream” “Brill” “Bugara” “Bullhead” “Bumper” “Burrfish” “Cabezon” “Cabrilla” “Cachalot” “Caiman” “Capelin” “Capitaine” “Carbonero” “Carp” “Catfish” “Cavalla” “Cero” “Charr” “Chivo” “Chopper” “Chub” “Cisco” “Cobbler” “Cobia” “Cod” “Conger” “Corvina” “Crevalle” “Croaker” “Cutlass” “Cuttlefish” “Dace” “Darter” “Dentuda” “Devilfish” “Diablo” “Dogfish” “Dolphin” “Dorado” “Dragonet” “Drum” “Entemedor” “Escolar” “Finback” “Flasher” “Flier” “Flounder” “Flying Fish” “Gabilan” “Gar” “Gato” “Golet” “Grampus” “Grayback” “Grayling” “Greenfish” “Greenling” “Grenadier” “Grouper” “Growler” “Grunion” “Guardfish” “Guavina” “Gudgeon” “Guitarro” “Gunnel” “Gurnard” “Hackleback” “Haddo” “Haddock” “Hake” “Halibut” “Hammerhead” “Harder” “Hardhead” “Hawkbill” “Herring” “Hoe” “Icefish” “Irex” “Jack” “Jallao” “Kete” “Kingfish” “Kraken” “Lagarto” “Lamprey” “Lancetfish” “Lapon” “Ling” “Lionfish” “Lizardfish” “Loggerhead” “Macabi” “Mackerel” “Manta” “Mapiro” “Marlin” “Medregal” “Menhaden” “Mingo” “Moray” “Muskallunge” “Narwhal” “Nautilus” “Odax” “Paddle” “Pampanito” “Parche” “Pargo” “Perch” “Perch” “Permit” “Peto” “Pickerel” “Pickerel” “Picuda” “Pike” “Pilotfish” “Pintado” “Pipefish” “Piper” “Piranha” “Plaice” “Plunger” “Pogy” “Pollack” “Pomfret” “Pompano” “Pompon” “Porpoise” “Puffer” “Queenfish” “Quillback” “Rasher” “Raton” “Ray” “Razorback” “Redfin” “Redfish” “Remora” “Requin” “Robalo” “Rock” “Roncador” “Ronquil” “Runner” “Runner” “Sabalo” “Sailfish” “Salmon” “Sand Lance” “Sargo” “Saury” “Sawfish” “Scabbardfish” “Scamp” “Scorpion” “Sculpin” “Sea Cat” “Sea evil” “Sea Dog” “Sea Fox” “Sea Leopard” “Sea Owl” “Sea Poacher“Sea Robin” “Seadragon” “Seahorse” “Seal” “Sealion” “Sealion” “Searaven” “Seawolf” “Segundo” “Sennet“Shad” “Shark” “Shark” “Silversides” “Skate” “Skipjack” “Snapper” “Snook” “Spadefish” “Spearfish”“Spikefish” “Spot” “Springer” “Steelhead” “Sterlet” “Stickleback” “Stingray” “Sturgeon” “Sunfish” “Swordfish” “Tambor” “Tang” “Tarpon” “Tautog” “Tench” “Thornback” “Threadfin” “Thresher” “Tigrone” “Tilefish” “Tinosa” “Tirante” “Toro” “Torsk” “Trepang” “Trigger” “Triton” “Trumpetfish” “Trutta” “Tullibee” “Tuna” “Tunny” “Tusk” “Volador” “Wahoo” “Whale”
+ 
 		}
 	}	
 	destroyer = {
@@ -23,7 +25,7 @@
 		generic_pattern = "SHIP_NAME_GENERIC"
 		unique = {
 			# From Wiki (Built/Served/Fought) 
-			"Dealey" "Cromwell" "Hammerberg" "Courtney" "Lester" "Evans" "Bridget" "Bauer" "Hooper" "John Willis" "Van Voorhis" "Hartley" "Joseph K. Taussig" "Claud Jones" "John R. Perry" "Charles Berry" "McMorris" "Bronstein" "McCloy"
+			“Bronstein” “McCloy” “Garcia” “Bradley” “Edward McDonnell” “Brumby” “Davidson” “Voge” “Sample” “Koelsch” “Albert David” “O'Callahan” “Knox” “Roark” “Gray” “Hepburn” “Connole” “Rathburne” “Meyerkord” “W. S. Sims” “Lang” “Patterson” “Whipple” “Reasoner” “Lockwood” “Stein” “Marvin Shields” “Francis Hammond” “Vreeland” “Bagley” “Downes” “Badger” “Blakely” “Robert E. Peary” “ “Harold E. Holt” “Trippe” “Fanning” “Ouellet” “Joseph Hewes” “Bowen” “Paul” “Aylwin” “Elmer Montgomery” “Cook” “McCandless” “Donald B. Beary” “Brewton” “Kirk” “Barbey” “Jesse L. Brown” “Ainsworth” “Miller” “Thomas C. Hart” “Capodanno” “Pharris” “Truett” “Valdez” “Moinester”
 		}
 	}
 	ffg = {
@@ -31,7 +33,7 @@
 		generic = { "FFG" }
 		generic_pattern = "SHIP_NAME_GENERIC"
 		unique = {
-			"Garcia" "Bradley" "Edward McDonnell" "Brumby" "Davidson" "Voge" "Sample" "Koelsch" "Albert David" "O'Callahan" "Glover" "Brooke" "Ramsey" "Schofield" "Talbot" "Richard L. Page" "Julius A. Furer" "Knox" "Roark" "Gray" "Hepburn" "Connole" "Rathburn" "Meyerkord" "W. S. Sims" "Lang" "Patterson" "Whipple" "Reasoner" "Lockwood" "Stein" "Marvin Shields" "Francis Hammond" "Vreeland" "Bagley" "Downes" "Badger" "Blakely" "Robert E. Peary" "Harold E. Holt" "Trippe" "Fanning" "Ouellet" "Joseph Hews" "Bowen" "Paul" "Aylwin" "Elmer Montgomery" "Cook" "McCandless" "Doanld B. Beary" "Brewton" "Kirk" "Barbey" "Jesse L. Brown" "Ainsworth" "Miller" "Thomas C. Hart" "Capodanno" "Pharris" "Truett" "Valdez" "Moinester" "Oliver Hazard Perry" "McInerney" "Wadsworth" "Duncan" "Clark" "George Philip" "Samuel Eliot Morison" "Sides" "Estocin" "Clifton Sprague" "John A. Moore" "Antrim" "Flatley" "Fahrion" "Lewis B. Puller" "Jack Williams" "Copeland" "Gallery" "Mahlon S. Tisdale" "Boone" "Stephen W. Groves" "Reid" "Stark" "John L. Hall" "Jarrett" "Aubrey Fitch" "Underwood" "Crommelin" "Curts" "Doyle" "Halyburton" "McClusky" "Klakring" "Thach" "De Wert" "Rentz" "Nicholas" "Vandegrift" "Robert G. Bradley" "Taylor" "Gary" "Carr" "Hawes" "Ford" "Elrod" "Simpson" "Reuben James" "Samuel B. Roberts" "Kauffman" "Rodney M. Davis" "Ingraham" 
+			“Glover” “Brooke” “Ramsey” “Schofield” “Talbot” “Richard L. Page” “Julius A. Furer” “Samuel Eliot Morison” “Sides” “Estocin” “Clifton Sprague” “John A. Moore” “Antrim” “Flatley” “Fahrion” “Lewis B. Puller” “Jack Williams” “Copeland” “Gallery” “Mahlon S. Tisdale” “Boone” “Stephen W. Groves” “Reid” “Stark” “John L. Hall” “Jarrett” “Aubrey Fitch” “Underwood” “Crommelin” “Curts” “Doyle” “Halyburton” “McClusky” “Klakring” “Thach” “De Wert” “Rentz” “Nicholas” “Vandegrift” “Robert G. Bradley” “Taylor” “Gary” “Carr” “Hawes” “Ford” “Elrod” “Simpson” “Reuben James” “Samuel B. Roberts” “Kauffman” “Rodney M. Davis” “Ingraham” 
 		}
 	}
 	heavy_cruiser = {
@@ -103,7 +105,7 @@
 		generic = { "SSBN" }
 		generic_pattern = "SHIP_NAME_GENERIC"
 		unique = {
-			"George Washington" "Patrick Henry" "Theodore Roosevelt" "Robert E. Lee" "Abraham Lincoln" "Ethan Allen" "Sam Houston" "Thomas A. Edison" "John Marshall" "Thomas Jefferson" "Lafayette" "Alexander Hamilton" "Andrew Jackson" "John Adams" "James Monroe" "Nathan Hale" "Woodrow Wilson" "Henry Clay" "Daniel Webster" "James Madison" "Tecumseh" "Daniel Boone" "John C. Calhoun" "Ulysses S. Grant" "Von Steuben" "Casimir Pulaski" "Stonewall Jackson" "Sam Rayburn" "Nathanael Greene" "Benjamin Franklin" "Simon Bolivar" "Kamehameha" "George Bancroft" "Lewis and Clark" "James K. Polk" "George C. Marshall" "Henry L. Stimson" "George Washington Carver" "Francis Scott Key" "Mariano G. Vallejo" "Will Rogers" "Ohio" "Michigan" "Florida" "Georgia" "Henry M. Jackson" "Alabama" "Alaska" "Nevada" "Tennessee" "Pennsylvania" "West Virginia" "Kentucky" "Maryland" "Nebraska" "Rhode Island" "Maine" "Wyoming" "Louisiana"
+			"George Washington" "Patrick Henry" "Theodore Roosevelt" "Robert E. Lee" "Abraham Lincoln" "Ethan Allen" "Sam Houston" "Thomas A. Edison" "John Marshall" "Thomas Jefferson" "Lafayette" "Alexander Hamilton" "Andrew Jackson" "John Adams" "James Monroe" "Nathan Hale" "Woodrow Wilson" "Henry Clay" "Daniel Webster" "James Madison" "Tecumseh" "Daniel Boone" "John C. Calhoun" "Ulysses S. Grant" "Von Steuben" "Casimir Pulaski" "Stonewall Jackson" "Sam Rayburn" "Nathanael Greene" "Benjamin Franklin" "Simon Bolivar" "Kamehameha" "George Bancroft" "Lewis and Clark" "James K. Polk" "George C. Marshall" "Henry L. Stimson" "George Washington Carver" "Francis Scott Key" "Mariano G. Vallejo" "Will Rogers" "Ohio" "Michigan" "Florida" "Georgia" "Henry M. Jackson" "Alabama" "Nevada" "Tennessee" "Pennsylvania" "West Virginia" "Kentucky" "Maryland" "Nebraska" "Rhode Island" "Maine" "Wyoming" "Louisiana"
 		}
 	}
 	battle_cruiser = {
@@ -130,7 +132,8 @@
 		generic_pattern = "SHIP_NAME_GENERIC"
 		unique = {
 			#wiki: Historic list of Alaska Class
-			"Iowa" "New Jersey" "Missouri" "Wisconsin" "Kentucky" "Illinois" 
+			"Alabama" "Arkansas" "California" "Colorado" "Connecticut" "Delaware" "Florida" "Georgia" "Hawaii" "Idaho" "Illinois" "Indiana" "Iowa" "Kansas" "Kentucky" "Louisiana" "Maine" "Maryland" "Massachusetts" "Michigan" "Minnesota" "Mississippi" "Missouri" "Montana" "Nebraska" "Nevada" "New Hampshire" "New Jersey" "New Mexico" "New York" "North Carolina" "North Dakota" "Ohio" "Oklahoma" "Oregon" "Pennsylvania" "Rhode Island" "South Carolina" "South Dakota" "Tennessee" "Texas" "Utah" "Vermont" "Virginia" "Washington" "West Virginia" "Wisconsin" "Wyoming"
+
 		}
 	}
 	battleship = {
@@ -139,7 +142,7 @@
 		generic_pattern = "SHIP_NAME_GENERIC"
 		unique = {
 			# From Wiki (Served)
-			"Iowa" "New Jersey" "Missouri" "Wisconsin" "Kentucky" "Illinois"
+			"Alabama" "Arkansas" "California" "Colorado" "Connecticut" "Delaware" "Florida" "Georgia" "Hawaii" "Idaho" "Illinois" "Indiana" "Iowa" "Kansas" "Kentucky" "Louisiana" "Maine" "Maryland" "Massachusetts" "Michigan" "Minnesota" "Mississippi" "Missouri" "Montana" "Nebraska" "Nevada" "New Hampshire" "New Jersey" "New Mexico" "New York" "North Carolina" "North Dakota" "Ohio" "Oklahoma" "Oregon" "Pennsylvania" "Rhode Island" "South Carolina" "South Dakota" "Tennessee" "Texas" "Utah" "Vermont" "Virginia" "Washington" "West Virginia" "Wisconsin" "Wyoming"
 		}
 	}	
 	carrier = {
@@ -147,7 +150,7 @@
 		generic = { "CV" }
 		generic_pattern = "SHIP_NAME_GENERIC"
 		unique = {
-			"Midway" "Coral Sea" "F. D. Roosevelt" "United States" 
+			“Antietam” “Bennington” “Bon Homme Richard” “Boxer” “Bunker Hill” “Coral Sea” “Enterprise” “Essex” “Franklin” “Franklin D. Roosevelt” “Hancock” “Hornet” “Hornet” “Intrepid” “Iwo Jima” “Kearsarge” “Lake Champlain” “Langley” “Lexington” “Leyte” “Midway” “Oriskany” “Philippine Sea” “Princeton” “Randolph” “Ranger” “Reprisal” “San Jacinto” “Saratoga” “Shangri-La” “Ticonderoga” “Wasp” “Yorktown” 
 		}
 	}
 
