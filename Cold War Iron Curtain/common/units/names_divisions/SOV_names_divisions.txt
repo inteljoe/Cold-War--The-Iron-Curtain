@@ -1,4 +1,4 @@
-﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
 # If we run out of all historical names, the names will be assigned in the old way.
 #
 # Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
@@ -1230,14 +1230,23 @@ SOV_GAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { SOV_GAR_01 }
 
-	fallback_name = "%dya Okkupatsionnykh Voysk"
+	fallback_name = "%dya Zadniy Diviziya"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dya 'Vitebskaya' Strelk. Div." }
-		
+		228 = { "228ya Zadniy Diviziya" }
+		229 = { "229ya Zadniy Diviziya" }
+		230 = { "230ya Zadniy Diviziya" }
+		231 = { "231ya Zadniy Diviziya" }
+		232 = { "232ya Zadniy Diviziya" }
+		233 = { "233ya Zadniy Diviziya" }
+		234 = { "234ya Zadniy Diviziya" }
+		235 = { "235ya Zadniy Diviziya" }
+		238 = { "238ya Zadniy Diviziya" }
+		239 = { "239ya Zadniy Diviziya" }
+		240 = { "240ya Zadniy Diviziya" }
 	}
 }
 SOV_POL_01 = 
@@ -1248,7 +1257,7 @@ SOV_POL_01 =
 
 	can_use = { always = yes }
 
-	division_types = { "calvary" }
+	division_types = { "infantry, calvary" }
 
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { SOV_POL_01 }
@@ -1259,7 +1268,44 @@ SOV_POL_01 =
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dya 'Vitebskaya' Strelk. Div." }
-		
+		1 = { "1ya 'Konarmia' Voysk" }
+		2 = { "2ya 'Konnaya Armiya' Voysk" }
+		3 = { "3ya 'Vityaz' Voysk" }
+		4 = { "2ya Spets. Naznacheniye" }
+		5 = { "3ya Spets. Naznacheniye" }
+		6 = { "10ya Spets. Naznacheniye" }
+		7 = { "14ya Spets. Naznacheniye" }
+		8 = { "16ya Spets. Naznacheniye" }
+		9 = { "22ya Spets. Naznacheniye" }
+		10 = { "24ya Spets. Naznacheniye" }
+		11 = { "25ya Spets. Naznacheniye" }
+		512 = { "512ya Spets. Naznacheniye" }
+		70 = { "70ya Spets. Naznacheniye" }
+		329 = { "329ya Spets. Naznacheniye" }
+		330 = { "330ya Spets. Naznacheniye" }
+		501 = { "501ya Spets. Naznacheniye" }
+		503 = { "503ya Spets. Naznacheniye" }
+		509 = { "509ya Spets. Naznacheniye" }
+		510 = { "510ya Spets. Naznacheniye" }
+		512 = { "512ya Spets. Naznacheniye" }
+		325 = { "325ya Spets. Naznacheniye" }
+		328 = { "328ya Spets. Naznacheniye" }
+		282 = { "282ya Spets. Naznacheniye" }
+		294 = { "294ya Spets. Naznacheniye" }
+		308 = { "308ya Spets. Naznacheniye" }
+		370 = { "370ya Spets. Naznacheniye" }
+		379 = { "379ya Spets. Naznacheniye" }
+		585 = { "585ya Spets. Naznacheniye" }
+		664 = { "664ya Spets. Naznacheniye" }
+		669 = { "669ya Spets. Naznacheniye" }
+		108 = { "108ya Spets. Naznacheniye" }
+		173 = { "173ya Spets. Naznacheniye" }
+		305 = { "305ya Spets. Naznacheniye" }
+		411 = { "411ya Spets. Naznacheniye" }
+		281 = { "281ya Spets. Naznacheniye" }
+		297 = { "297ya Spets. Naznacheniye" }
+		641 = { "641ya Spets. Naznacheniye" }
+		346 = { "346ya Spets. Naznacheniye" }
+		12 = { "%dya Spets. Naznacheniye" }
 	}
 }
